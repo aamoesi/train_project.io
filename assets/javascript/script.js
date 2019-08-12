@@ -2,7 +2,7 @@
 var index = 0;
 
 // Initialize Firebase https://console.firebase.google.com/u/0/project/trainchoochoo-bf5aa/overview
-var firebaseConfig = {
+var Config = {
     apiKey: "AIzaSyD7sAKjDRFQXpGQwMWyNXQF4FYQ6PqJkl8",
     authDomain: "train2-bd500.firebaseapp.com",
     databaseURL: "https://train2-bd500.firebaseio.com",
@@ -12,7 +12,7 @@ var firebaseConfig = {
     appId: "1:508249812101:web:fd9e2c0eb9dbef9b"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(Config);
 
 var database = firebase.database();
 
