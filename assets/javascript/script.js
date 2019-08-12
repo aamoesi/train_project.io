@@ -3,13 +3,13 @@ var index = 0;
 
 // Initialize Firebase
 var firebaseConfig = {
-    apiKey: "AIzaSyCvbFWbxJedI2sCZEZIDu-QKtutGUJfg9U",
-    authDomain: "train3-43bb9.firebaseapp.com",
-    databaseURL: "https://train3-43bb9.firebaseio.com",
-    projectId: "train3-43bb9",
-    storageBucket: "",
-    messagingSenderId: "994054958345",
-    appId: "1:994054958345:web:48bbbea26bbcf6c9"
+    apiKey: "AIzaSyD7sAKjDRFQXpGQwMWyNXQF4FYQ6PqJkl8",
+    authDomain: "train2-bd500.firebaseapp.com",
+    databaseURL: "https://train2-bd500.firebaseio.com",
+    projectId: "train2-bd500",
+    storageBucket: "train2-bd500.appspot.com",
+    messagingSenderId: "508249812101",
+    appId: "1:508249812101:web:fd9e2c0eb9dbef9b"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
