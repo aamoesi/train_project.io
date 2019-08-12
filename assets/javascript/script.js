@@ -7,13 +7,12 @@ var firebaseConfig = {
     authDomain: "trainproject-69b9b.firebaseapp.com",
     databaseURL: "https://trainproject-69b9b.firebaseio.com",
     projectId: "trainproject-69b9b",
-    storageBucket: "",
+    storageBucket: "trainproject-69b9b.appspot.com",
     messagingSenderId: "587171928574",
     appId: "1:587171928574:web:ad7839b65a6f41b9"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-
 
 var database = firebase.database();
 
