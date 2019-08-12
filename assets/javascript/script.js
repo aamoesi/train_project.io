@@ -2,15 +2,17 @@
 var index = 0;
 
 // Initialize Firebase https://console.firebase.google.com/u/0/project/trainchoochoo-bf5aa/overview
-var config = {
-    apiKey: "AIzaSyCSOBKLrMeN2W73DGtgMoAgFSS3vC_bNDY",
-    authDomain: "trainchoochoo-bf5aa.firebaseapp.com",
-    databaseURL: "https://trainchoochoo-bf5aa.firebaseio.com",
-    projectId: "trainchoochoo-bf5aa",
-    storageBucket: "trainchoochoo-bf5aa.appspot.com",
-    messagingSenderId: "753497564102"
+var firebaseConfig = {
+    apiKey: "AIzaSyCdfd8o2uR2JvK8meGHyN_fMupKVIkNBdE",
+    authDomain: "trainproject-69b9b.firebaseapp.com",
+    databaseURL: "https://trainproject-69b9b.firebaseio.com",
+    projectId: "trainproject-69b9b",
+    storageBucket: "",
+    messagingSenderId: "587171928574",
+    appId: "1:587171928574:web:ad7839b65a6f41b9"
 };
-firebase.initializeApp(config);
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 
 var database = firebase.database();
