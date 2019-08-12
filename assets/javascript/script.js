@@ -102,14 +102,14 @@ database.ref().orderByChild("dateAdded").on("child_added", function (childSnapsh
 function removeRow() {
     $(".row-" + $(this).attr("data-index")).remove();
     database.ref().child($(this).attr("data-key")).remove();
-};
+}
 
 function editRow() {
     $(".row-" + $(this).attr("data-index")).children().eq(1).html("<textarea class='newName'></textarea>");
     $(".row-" + $(this).attr("data-index")).children().eq(2).html("<textarea class='newDestination'></textarea>");
     $(".row-" + $(this).attr("data-index")).children().eq(3).html("<textarea class='newFrequency' type='number'></textarea>");
     $(this).toggleClass("updateButton").toggleClass("submitButton");
-};
+}
 
 function submitRow() {
     var newName = $(".newName").val().trim();
@@ -124,7 +124,7 @@ function submitRow() {
     $(".row-" + $(this).attr("data-index")).children().eq(2).html(newDestination);
     $(".row-" + $(this).attr("data-index")).children().eq(3).html(newFrequency);
     $(this).toggleClass("updateButton").toggleClass("submitButton");
-};
+}
 
 $(document).on("click", ".removeButton", removeRow);
 $(document).on("click", ".updateButton", editRow);
