@@ -1,7 +1,7 @@
 // Initialize Firebase
 var index = 0;
 
-// Initialize Firebase https://console.firebase.google.com/u/0/project/trainchoochoo-bf5aa/overview
+// Initialize Firebase
 var firebaseConfig = {
     apiKey: "AIzaSyCvbFWbxJedI2sCZEZIDu-QKtutGUJfg9U",
     authDomain: "train3-43bb9.firebaseapp.com",
