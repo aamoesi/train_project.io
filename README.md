@@ -1,3 +1,6 @@
+Deployment link
+https://aamoesi.github.io/train_project.io/
+
 # Firebase Assignment - Train Scheduler (Basic - Recommended)
 
 ## Because that Rock Paper Scissors Game is Too Damn Hard
